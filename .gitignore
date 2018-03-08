@@ -1,3 +1,9 @@
+# repository specific items 
+Training_Data/. # don't upload uncompressed training data
+temp_imgs/. # don't include temp images from last run
+AMS_savedobjects/. 
+image_segmentation_verification/.
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

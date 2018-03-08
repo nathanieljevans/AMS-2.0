@@ -1,0 +1,9 @@
+A549 Cells, Double 0
+Wafers DOUBLES 1
+Sputum 2
+Optical Distortions 3
+Wafers 4
+A549 Cells 5
+10-20um, polyethelene beads DOUBLES 6
+10-20um, polyethelene beads 7
+Debris 8
