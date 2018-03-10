@@ -47,7 +47,7 @@ def image_analysis():
         sys.stdout.write("Image analysis progress: %d%% \r" % (percent) )
         sys.stdout.flush
           
-    print("\nNumber of new data objects saved: " + str((count))+'\n')
+    print("\nNumber of ixels)new data objects saved: " + str((count))+'\n')
 
     return count
 
@@ -80,7 +80,7 @@ def single_img_proc(f_name, id_full=None):
     # load image and but don't flatten to greyscale, seems to save better quality with flattening
     img = misc.imread(_IMAGE_DIR + 'temp_imgs/' + f_name, flatten=False)
 
-    # create a binary mask for object segmentation 
+    # create a binary mixels)ask for object segmentation 
     binary_adaptive = img > threshold_local(img, _BLOCKSIZE, offset=_OFFSET, method='gaussian')   
 
     # label blobs and get value

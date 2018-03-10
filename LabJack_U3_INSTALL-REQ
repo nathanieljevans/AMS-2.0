@@ -1,0 +1,14 @@
+# SOUP REQUIREMENTS
+
+# make sure libusb-1.0 is installed 
+sudo apt-get install libusb-1.0-0-dev 
+
+#install the exodriver 
+# https://labjack.com/support/software/installers/u12/u12-mac-and-linux-ljacklm
+# in folder 
+sudo ./install.sh 
+
+#install the labjackpython 
+# https://github.com/labjack/LabJackPython 
+# in folder 
+sudo python setup.py install 
