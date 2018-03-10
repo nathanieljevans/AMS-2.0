@@ -91,7 +91,7 @@ def simple_focus_stacking(SIGMA=2):
     stack_names = os.listdir(IMG_STACK_SAVE_PATH)
     imgs = []
     for name in stack_names: 
-        imgs.append(misc.imread(IMG_STACK_SAVE_PATH + str(name), flatten=False, mode='F'))
+        imgs.append(misc.imread(IMG_STACK_SAVE_PATH + str(name), flatten=False, mode='I'))
 
     frame_count = len(stack_names)
     

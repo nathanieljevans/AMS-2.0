@@ -9,6 +9,6 @@ sudo apt-get install libusb-1.0-0-dev
 sudo ./install.sh 
 
 #install the labjackpython 
-# https://github.com/labjack/LabJackPython 
+git clone https://github.com/labjack/LabJackPython.git
 # in folder 
 sudo python setup.py install 
